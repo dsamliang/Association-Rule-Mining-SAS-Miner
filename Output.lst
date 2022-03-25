@@ -1,0 +1,122 @@
+*------------------------------------------------------------*
+User:                u59396733
+Date:                March 25, 2022
+Time:                16:46:16
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+Role         Level         Count
+ 
+ID         INTERVAL          1
+TARGET     NOMINAL           1
+ 
+ 
+ 
+ 
+Association Report
+ 
+              Expected
+             Confidence    Confidence    Support              Transaction
+Relations       (%)           (%)          (%)        Lift       Count                                   Rule                                 Left Hand of Rule
+ 
+      4         48.48        100.00       36.36       2.06       12.00       Women's Dress & Sport Shoe & Men's Casual ==> Women's Casual     Women's Dress & Sport Shoe & Men's Casual
+      4         36.36         75.00       36.36       2.06       12.00       Women's Casual ==> Women's Dress & Sport Shoe & Men's Casual     Women's Casual
+      4         45.45         91.67       33.33       2.02       11.00       Women's Casual & Men's Dress ==> Sport Shoe & Men's Casual       Women's Casual & Men's Dress
+      4         36.36         73.33       33.33       2.02       11.00       Sport Shoe & Men's Casual ==> Women's Casual & Men's Dress       Sport Shoe & Men's Casual
+      4         36.36         68.75       33.33       1.89       11.00       Women's Casual ==> Sport Shoe & Men's Dress & Men's Casual       Women's Casual
+      4         48.48         91.67       33.33       1.89       11.00       Sport Shoe & Men's Dress & Men's Casual ==> Women's Casual       Sport Shoe & Men's Dress & Men's Casual
+      4         42.42         80.00       36.36       1.89       12.00       Sport Shoe & Men's Casual ==> Women's Casual & Slipper           Sport Shoe & Men's Casual
+      4         42.42         80.00       36.36       1.89       12.00       Sport Shoe & Men's Casual ==> Women's Dress & Women's Casual     Sport Shoe & Men's Casual
+      4         45.45         85.71       36.36       1.89       12.00       Women's Dress & Women's Casual ==> Sport Shoe & Men's Casual     Women's Dress & Women's Casual
+      4         45.45         85.71       36.36       1.89       12.00       Women's Casual & Slipper ==> Sport Shoe & Men's Casual           Women's Casual & Slipper
+      4         33.33         62.50       30.30       1.88       10.00       Sport Shoe & Men's Dress ==> Women's Casual & Sandal             Sport Shoe & Men's Dress
+      4         48.48         90.91       30.30       1.88       10.00       Women's Casual & Sandal ==> Sport Shoe & Men's Dress             Women's Casual & Sandal
+      4         30.30         56.25       27.27       1.86        9.00       Women's Casual ==> Sport Shoe & Men's Casual & Boot              Women's Casual
+      4         48.48         90.00       27.27       1.86        9.00       Sport Shoe & Men's Casual & Boot ==> Women's Casual              Sport Shoe & Men's Casual & Boot
+      4         45.45         83.33       30.30       1.83       10.00       Women's Casual & Men's Dress ==> Women's Dress & Men's Casual    Women's Casual & Men's Dress
+      4         36.36         66.67       30.30       1.83       10.00       Women's Dress & Men's Casual ==> Women's Casual & Men's Dress    Women's Dress & Men's Casual
+      4         42.42         76.47       39.39       1.80       13.00       Women's Dress & Sport Shoe ==> Women's Casual & Slipper          Women's Dress & Sport Shoe
+      4         51.52         92.86       39.39       1.80       13.00       Women's Casual & Slipper ==> Women's Dress & Sport Shoe          Women's Casual & Slipper
+      4         45.45         81.82       27.27       1.80        9.00       Women's Casual & Sandal ==> Sport Shoe & Men's Casual            Women's Casual & Sandal
+      4         33.33         60.00       27.27       1.80        9.00       Women's Dress & Men's Dress ==> Women's Casual & Sandal          Women's Dress & Men's Dress
+      4         33.33         60.00       27.27       1.80        9.00       Sport Shoe & Men's Casual ==> Women's Casual & Sandal            Sport Shoe & Men's Casual
+      4         45.45         81.82       27.27       1.80        9.00       Women's Casual & Sandal ==> Women's Dress & Men's Dress          Women's Casual & Sandal
+      3         45.45         81.25       39.39       1.79       13.00       Women's Casual ==> Sport Shoe & Men's Casual                     Women's Casual
+      3         48.48         86.67       39.39       1.79       13.00       Sport Shoe & Men's Casual ==> Women's Casual                     Sport Shoe & Men's Casual
+      4         48.48         86.67       39.39       1.79       13.00       Women's Dress & Sport Shoe & Slipper ==> Women's Casual          Women's Dress & Sport Shoe & Slipper
+ 
+ 
+                                                                                                                                        Rule
+Right Hand of Rule                            Rule Item 1      Rule Item 2       Rule Item 3        Rule Item 4      Rule Item 5       Index
+ 
+Women's Casual                               Women's Dress     Sport Shoe        Men's Casual      =============>    Women's Casual       1
+Women's Dress & Sport Shoe & Men's Casual    Women's Casual    =============>    Women's Dress     Sport Shoe        Men's Casual         2
+Sport Shoe & Men's Casual                    Women's Casual    Men's Dress       =============>    Sport Shoe        Men's Casual         3
+Women's Casual & Men's Dress                 Sport Shoe        Men's Casual      =============>    Women's Casual    Men's Dress          4
+Sport Shoe & Men's Dress & Men's Casual      Women's Casual    =============>    Sport Shoe        Men's Dress       Men's Casual         5
+Women's Casual                               Sport Shoe        Men's Dress       Men's Casual      =============>    Women's Casual       6
+Women's Casual & Slipper                     Sport Shoe        Men's Casual      =============>    Women's Casual    Slipper              7
+Women's Dress & Women's Casual               Sport Shoe        Men's Casual      =============>    Women's Dress     Women's Casual       8
+Sport Shoe & Men's Casual                    Women's Dress     Women's Casual    =============>    Sport Shoe        Men's Casual         9
+Sport Shoe & Men's Casual                    Women's Casual    Slipper           =============>    Sport Shoe        Men's Casual        10
+Women's Casual & Sandal                      Sport Shoe        Men's Dress       =============>    Women's Casual    Sandal              11
+Sport Shoe & Men's Dress                     Women's Casual    Sandal            =============>    Sport Shoe        Men's Dress         12
+Sport Shoe & Men's Casual & Boot             Women's Casual    =============>    Sport Shoe        Men's Casual      Boot                13
+Women's Casual                               Sport Shoe        Men's Casual      Boot              =============>    Women's Casual      14
+Women's Dress & Men's Casual                 Women's Casual    Men's Dress       =============>    Women's Dress     Men's Casual        15
+Women's Casual & Men's Dress                 Women's Dress     Men's Casual      =============>    Women's Casual    Men's Dress         16
+Women's Casual & Slipper                     Women's Dress     Sport Shoe        =============>    Women's Casual    Slipper             17
+Women's Dress & Sport Shoe                   Women's Casual    Slipper           =============>    Women's Dress     Sport Shoe          18
+Sport Shoe & Men's Casual                    Women's Casual    Sandal            =============>    Sport Shoe        Men's Casual        19
+Women's Casual & Sandal                      Women's Dress     Men's Dress       =============>    Women's Casual    Sandal              20
+Women's Casual & Sandal                      Sport Shoe        Men's Casual      =============>    Women's Casual    Sandal              21
+Women's Dress & Men's Dress                  Women's Casual    Sandal            =============>    Women's Dress     Men's Dress         22
+Sport Shoe & Men's Casual                    Women's Casual    =============>    Sport Shoe        Men's Casual                          23
+Women's Casual                               Sport Shoe        Men's Casual      =============>    Women's Casual                        24
+Women's Casual                               Women's Dress     Sport Shoe        Slipper           =============>    Women's Casual      25
+ 
+ 
+ 
+ 
+Rule Statistics
+ 
+The MEANS Procedure
+ 
+Variable    Label                          Minimum         Maximum            Mean
+----------------------------------------------------------------------------------
+EXP_CONF    Expected Confidence(%)      21.2121212      66.6666667      45.9393939
+CONF        Confidence(%)               31.8181818     100.0000000      73.2280099
+SUPPORT     Support(%)                  21.2121212      42.4242424      32.1818182
+LIFT        Lift                         1.4278846       2.0625000       1.6000800
+----------------------------------------------------------------------------------
+ 
+ 
+ 
+Sequence Report
+ 
+The FREQ Procedure
+ 
+                          Relations
+ 
+                                     Cumulative    Cumulative
+SET_SIZE    Frequency     Percent     Frequency      Percent
+-------------------------------------------------------------
+       3          26       13.00            26        13.00
+       4         174       87.00           200       100.00
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
