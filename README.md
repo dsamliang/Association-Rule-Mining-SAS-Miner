@@ -5,10 +5,10 @@
 
 1.  Create a diagram 
 2.  Create Data Source and Select Shoes Dataset 
-3.  Assign the roles to the variables
-4.  Assign 
-5.  Drag the table and the Association component 
-6.  Run the association Components and view the results 
+3.  Assign the roles to the variables (set Stores as ID role, set Product as Target Role)
+5.  Drag the table and the Association component
+6.  Change export rule by ID to yes   
+7.  Run the association Components and view the results 
 
 
 **Rules:**
